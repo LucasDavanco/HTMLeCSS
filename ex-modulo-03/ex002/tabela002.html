@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabelas</title>
+    <style>
+        table{
+            width: 500px;
+            border-collapse: collapse;
+
+        }
+        caption{
+            font-size: 1.5em;
+            background-color: darkgray;
+            font-weight: bold;
+            padding: 10px;
+        }
+        th{
+            background-color: darkgray;
+            color: azure;
+        }
+        th, td{
+            border: 1px solid black;
+            padding: 10px;
+
+
+        }
+        .num{
+            text-align: right;
+        }
+    </style>
+</head>
+<body>
+    <h1>Uso de tabelas GRANDES</h1>
+    <table>
+        <caption>População da unidades Federativas</caption>
+        <thead>
+            <tr>
+                <th scope="col">Estado</th>
+                <th scope="col" style="width: 100px;">População</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>São Paulo</td>
+                <td class="num">45 919 049</td>
+            </tr>
+            <tr>
+                <td>Minas Gerais</td>
+                <td class="num">21 168 791</td>
+            </tr>
+            <tr>
+                <td>Rio de Janeiro</td>
+                <td class="num">17 268 421</td>
+            </tr>
+            <tr>
+                <td>Amazonas</td>
+                <td class="num">1 150 158</td>
+            </tr>
+            <tr>
+                <td>Bahia</td>
+                <td class="num">14 888 049</td>
+            </tr>
+            <tr>
+                <td>Rio Grande do Sul</td>
+                <td class="num">30 710 049</td>
+            </tr>
+            <tr>
+                <td>Goiais</td>
+                <td class="num">28 919 049</td>
+            </tr>
+            <tr>
+                <td>Rio Grande do Norte</td>
+                <td class="num">25 350 049</td>
+            </tr>
+            <tr>
+                <td>Ceara</td>
+                <td class="num">10 555 049</td>
+            </tr>
+            <tr>
+                <td>Maranhão</td>
+                <td class="num">55 919 049</td>
+            </tr>
+            <tr>
+                <td>Piaui</td>
+                <td class="num">27 580 049</td>
+            </tr>
+
+        </tbody>
+        <tfoot>
+            <tr>
+                <th scope="row">Total de Habitantes</th>
+                <strong>
+                    <th>250 350 200</th>
+                </strong>
+            </tr>
+        </tfoot>
+    </table>
+</body>
+</html> 
