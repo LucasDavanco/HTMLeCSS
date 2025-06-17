@@ -87,12 +87,15 @@ section#img01 {
     background-image: url('imagens/20231223_175244.jpg');
     background-position: right center;
     background-size: cover;
+    
 
 }
 
 section#img02 {
-background-image: url('imagens/Imagem\ do\ WhatsApp\ de\ 2025-06-12\ à\(s\)\ 10.54.22_2ea47194.jpg');
+background-image: url('imagens/lulu.png');
 background-size: cover;
+background-size: 100%;
+background-position: ;
 }
 
 footer{
