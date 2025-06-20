@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exemplo de Tabela com ColGroup</title>
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        table{
+            text-align: center;
+            border-collapse: collapse;
+            width: 400px;
+        }
+        th,td{
+            border: 1px solid black;
+            padding: 10px;
+        }
+        caption{
+            background-color: black;
+            color: aliceblue;
+            font-weight: bolder;
+            padding: 20px;
+        }
+        .amarelo{
+            background-color: yellow;
+        }
+        .vermelho{
+            background-color: red;
+        }
+    </style>
+</head>
+<body>
+    <h1>Usando  COLGROUP</h1>
+    <table>
+        <colgroup>
+            <col class="amarelo">
+            <col class="vermelho" span="3">
+        </colgroup>
+        <caption>Como Cria COLGROUP</caption>
+    <tr>
+        <th>NOME</th>
+        <th>IDADE</th>
+        <th>sexo</th>
+        <th>CIDADE</th>
+
+        
+    
+    </tr>
+    <tr>
+        <td>Luana</td>
+        <td>02</td>
+        <td>Feminino</td>
+        <td>Franca</td>
+    </tr>
+    <tr>
+        <td>Lucas</td>
+        <td>31</td>
+        <td>Masculino</td>
+        <td>Franca</td>
+
+    </tr>
+    <tr>
+        <td>Mayara</td>
+        <td>37</td>
+        <td>Feminino</td>
+        <td>Franca</td>
+    </tr>
+    <tr>
+        <td>Lourder</td>
+        <td>69</td>
+        <td>Feminino</td>
+        <td>Franca</td>
+    </tr>
+        
+    </table>
+</body>
+</html>
