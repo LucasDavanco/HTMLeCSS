@@ -17,3 +17,21 @@ h1{
     font-size: 3em;
     
 }
+menu ul{
+    list-style: none;
+    background-color: rgb(112, 112, 112);
+    
+}
+menu li{
+    background-color: rgb(87, 85, 85);
+    color: white;
+    display: inline-block;
+    padding: 10px;
+
+}
+article{
+    width: 600px;
+    display: block;
+    margin: auto;
+    
+}
