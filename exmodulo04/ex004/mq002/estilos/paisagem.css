@@ -1,2 +1,7 @@
 @charset "UTF-8";
 /* Paras as midias deitadas */
+body{
+   background: url(../imagens/cev-landscape.jpg);
+   background-position: left top;
+   background-repeat: no-repeat;
+}

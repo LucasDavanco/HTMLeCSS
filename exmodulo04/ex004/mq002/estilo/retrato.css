@@ -1,2 +1,6 @@
 @charset "UTF-8";
 /* Para as midias em pé */
+body{
+   background: url(../imagens/cev-portrait.jpg);
+   background-position: center bottom;
+}
